@@ -1,0 +1,138 @@
+<svg width="100%" height="100%" viewBox="0 0 490 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .terminal-bg {
+      fill: #0d1117;
+      stroke: #30363d;
+      stroke-width: 1.5;
+      rx: 8px;
+    }
+    .title-bar-bg {
+      fill: #161b22;
+      stroke: #30363d;
+      stroke-width: 1.5;
+    }
+    .terminal-text {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 13px;
+      fill: #c9d1d9;
+    }
+    .title-text {
+      fill: #8b949e;
+      text-anchor: middle;
+    }
+    .prompt-user { font-weight: bold; fill: #58a6ff; }
+    .prompt-host { font-weight: bold; fill: #39d353; }
+    .prompt-sep { fill: #8b949e; }
+    .prompt-cmd { fill: #c9d1d9; }
+    .key { font-weight: bold; fill: #ff7b72; }
+    .val { fill: #c9d1d9; }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(6px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .animate-line {
+      opacity: 0;
+      animation: fadeInUp 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+  </style>
+  <rect x="1" y="1" width="488" height="498" class="terminal-bg" />
+  <path d="M 1,36 L 489,36 L 489,8 A 8,8 0 0,0 481,0 L 9,0 A 8,8 0 0,0 1,8 Z" class="title-bar-bg" />
+  <circle cx="18" cy="18" r="6" fill="#ff5f56" />
+  <circle cx="38" cy="18" r="6" fill="#ffbd2e" />
+  <circle cx="58" cy="18" r="6" fill="#27c93f" />
+  <text x="245" y="22" class="terminal-text title-text">arpitmangaraj@github: ~</text>
+  <g class="terminal-text animate-line" style="animation-delay: 0.20s;">
+    <text x="25" y="65">
+      <tspan class="prompt-user">arpitmangaraj</tspan>
+      <tspan class="prompt-sep">@</tspan>
+      <tspan class="prompt-host">github</tspan>
+      <tspan class="prompt-sep"> ~ $ </tspan>
+      <tspan class="prompt-cmd">neofetch</tspan>
+    </text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 0.35s;">
+    <text x="25" y="95" class="prompt-host" style="font-weight: bold; font-size: 15px;">arpitmangaraj@github</text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 0.50s;">
+    <text x="25" y="112" class="prompt-sep">----------------------</text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 0.65s;">
+    <text x="25" y="135">
+      <tspan class="key">OS</tspan>
+      <tspan class="prompt-sep">: </tspan>
+      <tspan class="val">Ubuntu 24.04 LTS x86_64 / Cloud</tspan>
+    </text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 0.80s;">
+    <text x="25" y="159">
+      <tspan class="key">Host</tspan>
+      <tspan class="prompt-sep">: </tspan>
+      <tspan class="val">Arpit Mangaraj Profile</tspan>
+    </text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 0.95s;">
+    <text x="25" y="183">
+      <tspan class="key">Kernel</tspan>
+      <tspan class="prompt-sep">: </tspan>
+      <tspan class="val">Python 3.12.7 & Node.js</tspan>
+    </text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 1.10s;">
+    <text x="25" y="207">
+      <tspan class="key">Uptime</tspan>
+      <tspan class="prompt-sep">: </tspan>
+      <tspan class="val">25 years (Continuous Learning)</tspan>
+    </text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 1.25s;">
+    <text x="25" y="231">
+      <tspan class="key">Shell</tspan>
+      <tspan class="prompt-sep">: </tspan>
+      <tspan class="val">zsh / pwsh / agentic</tspan>
+    </text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 1.40s;">
+    <text x="25" y="255">
+      <tspan class="key">Now</tspan>
+      <tspan class="prompt-sep">: </tspan>
+      <tspan class="val">Building AI systems & full-stack applications</tspan>
+    </text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 1.55s;">
+    <text x="25" y="279">
+      <tspan class="key">Prev</tspan>
+      <tspan class="prompt-sep">: </tspan>
+      <tspan class="val">Full-Stack Architect & DevOps Enthusiast</tspan>
+    </text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 1.70s;">
+    <text x="25" y="303">
+      <tspan class="key">Stack</tspan>
+      <tspan class="prompt-sep">: </tspan>
+      <tspan class="val">React, Next.js, Node, Go, Python, Docker, AWS</tspan>
+    </text>
+  </g>
+  <g class="terminal-text animate-line" style="animation-delay: 1.85s;">
+    <text x="25" y="327">
+      <tspan class="key">Focus</tspan>
+      <tspan class="prompt-sep">: </tspan>
+      <tspan class="val">Web automation, distributed APIs & high scale systems</tspan>
+    </text>
+  </g>
+  <g class="animate-line" style="animation-delay: 2.00s;">
+    <rect x="25" y="366" width="20" height="20" fill="#161b22" rx="3" />
+    <rect x="49" y="366" width="20" height="20" fill="#ff7b72" rx="3" />
+    <rect x="73" y="366" width="20" height="20" fill="#39d353" rx="3" />
+    <rect x="97" y="366" width="20" height="20" fill="#f2cc60" rx="3" />
+    <rect x="121" y="366" width="20" height="20" fill="#58a6ff" rx="3" />
+    <rect x="145" y="366" width="20" height="20" fill="#bc8cff" rx="3" />
+    <rect x="169" y="366" width="20" height="20" fill="#39c5cf" rx="3" />
+    <rect x="193" y="366" width="20" height="20" fill="#ffffff" rx="3" />
+  </g>
+</svg>
